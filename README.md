@@ -1,3 +1,15 @@
+## Simple Sale Token
+
+A simple smart contract for the Ethereum blockchain that implements the ERC20 token standard and allows for the purchase of tokens using Ether. The contract also has the ability for an owner to restrict certain addresses from sending and receiving tokens.
+
+### Features
+
+- The ability to buy tokens with Ether
+- A conversion rate set that determines the amount of tokens that can be purchased with a certain amount of Ether
+- The ability to update the conversion rate between Ether and tokens
+- The ability to restrict certain addresses from sending and receiving tokens
+- The ability to transfer tokens between addresses while checking if the addresses are restricted or not
+
 ## Scripts
 
 This repository includes the following scripts in the `package.json` file:
